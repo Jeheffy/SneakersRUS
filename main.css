@@ -1,0 +1,625 @@
+
+/*---------------------------Jefferson Bustamante X00166731 CSS---------------------------*/
+/*header*/
+header {
+    background-color: grey;
+}
+/*logo*/
+.logo {
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+/*navbar*/
+.navBar {
+    padding: 1em;
+    background-color: #bab86c;
+    border-top-style: solid;
+    border-top-color: gray;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 3%;
+}
+
+.navLi {
+    display: inline;
+    list-style-type: none;    
+}
+
+.navA {
+    text-decoration: none;
+    color: black;
+    padding: 1em;    
+}
+
+a:hover {
+    color: white;
+}
+
+/*body*/
+.MyBody {
+    background-color: white;
+}
+
+/*index.html flextbox*/ 
+.flexboxMain {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-content: flex-end;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-grow: 0%;
+    flex-shrink: 0%;
+    flex-basis: 20px;
+    align-content: center;
+    justify-content: center;
+}
+
+.flexboxMain p {
+    margin-left: 5px;
+    text-align: left;    
+}
+
+.flexboxMain figure {
+    color: black;
+    text-align: center;
+    background-color: lightgrey;
+    padding: 1.5em;
+    margin-bottom: 5%;
+}
+
+.flexboxMain img {
+    width: 50%;
+    float: right;
+}
+
+.flexboxMain h1 {
+    text-align: center;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 3%;   
+}
+
+.flexboxMain h2 {
+    text-align: center;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 3%;    
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-content: flex-end;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-grow: 0%;
+    flex-shrink: 0%;
+    flex-basis: 20px;
+    align-content: center;
+    justify-content: center;
+}
+
+.flexbox img {
+    width: 50%;
+    margin-top: 2%;
+}
+
+.flexbox p {
+    color: gray;
+    font-size: 12pt;
+}
+
+.flexbox figure {
+    color: black;
+    text-align: center;
+    background-color: lightgrey;
+    padding: 0.5em;
+}
+
+/*footer*/
+.MyFooter {
+    text-align: center;
+    background-color: grey;
+    color: black;
+    padding: 0.5em;
+}
+
+/*icons*/
+
+/*These css codes is taken from w3schools it designs the social media buttons in relation to colour and size of texts*/
+/*These codes can be edited to make the icons appear better for appearance*/
+/*Link for this code:https://www.w3schools.com/howto/howto_css_social_media_buttons.asp*/
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {                 
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+/*index.html Media Queries*/
+
+
+@media screen and (max-width: 1200px) /*Desktop*/
+{
+.logo {
+    width: 15%;
+}
+
+.flexboxMain img {
+    width: 50%;
+    float: right;
+}
+
+@media screen and (max-width: 900px) /*Tablet*/
+{
+.logo {
+    width: 30%;
+}
+
+.flexboxMain p {
+    margin-left: 5px;
+    text-align: left;
+    font-size: 12pt;
+}
+
+.flexboxMain img {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+@media screen and (max-width: 768px) /*Phone*/
+{
+.logo {
+    width: 40%;
+}
+
+.flexboxMain p {
+    margin-left: 5px;
+    text-align: left;
+    font-size: 14pt;
+}
+
+.flexboxMain img {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.navBar {
+    padding: 2em;
+    background-color: #bab86c;
+    border-top-style: solid;
+    border-top-color: gray;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 3%;
+}
+
+.navA {
+    text-decoration: none;
+    color: black;
+    padding: 1em;  
+    font-size: 14pt;  
+}
+
+@media screen and (max-width: 480px) /*phone*/
+{
+.logo {
+    width: 50%;
+}
+
+.flexboxMain p {
+    margin-left: 5px;
+    text-align: left;
+    font-size: 14pt;
+}
+
+.flexboxMain img {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+@media screen and (max-width: 320px) /*phone*/
+{
+.logo {
+    width: 45%;
+}
+
+.flexboxMain p {
+    margin-left: 5px;
+    text-align: left;
+    font-size: 14pt;
+}
+
+.flexboxMain img {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+}
+}
+}
+}
+}
+
+/*---------------------------Joseph CSS---------------------------*/
+
+        /*flexbox1*/
+.flexbox1 {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-content: flex-end;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-grow: 0%;
+    flex-shrink: 0%;
+    flex-basis: 15px;
+    align-content: center;
+    justify-content: center;
+}
+
+.flexbox1 img {
+    margin-top: 2%;
+    width: 50%;
+}
+
+.flexbox1 p {
+    color: gray;
+    font-size: 12pt;
+}
+
+.flexbox1 figure {
+    color: black;
+    text-align: center;
+    padding: 0.5em;
+    background-color: #d4af37;
+}
+
+        /*footer*/
+.Myfooter1 {
+    padding: 3em;
+    text-align: center;
+    background-color: #03fca5;
+    color: black;
+}
+
+.Myfooter1 p {
+    float: left;
+    font-size: 13pt;
+}
+
+        /*header*/
+.header1 {
+    background-color: #654321;
+}
+
+.header {
+    text-align: center;
+    color: cadetblue;
+    font-size: 16pt;
+}
+
+    /*logo image*/
+.SRUSlogo {
+    width: 10%;
+    margin-left: auto;
+}
+
+    /*navigation bar*/
+.NavB {
+    padding: 2em;
+    margin-top: 0px;
+    background-color:#03fca5;
+    margin-bottom: 3%;   
+}
+    /*Nav Lists*/
+.NavBLi {
+    display: inline;
+    list-style-type: none;    
+}
+    /*Nav link and texts*/
+.NavA {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    padding: 1em;   
+}
+    /*Nav Hover Colour*/
+.NavA:hover {
+    color: #000080;
+}
+
+        /*body*/
+body {
+    background-color: white;
+}
+
+@media screen and (max-width: 768px)
+{
+    .SRUSlogo{
+        width:50%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .NavB {
+        padding: 3em;
+        margin-top: 0px;
+        background-color:#03fca5;
+        margin-bottom: 3%;    
+    }
+}
+
+@media screen and (max-width: 480px)
+{
+    .SRUSlogo{
+        width:100%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .NavB {
+        padding: 4em;
+        margin-top: 0px;
+        background-color:#03fca5;
+        margin-bottom: 3%;    
+    }
+
+    .NavBLi {
+        list-style-type: none;    
+    }
+
+    .NavA {
+        font-size: 14px;
+        text-decoration: none;
+        color: black;
+        padding: 1em; 
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 320px)
+{
+    .SRUSlogo{
+        width:100%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .NavB {
+        padding: 4em;
+        margin-top: 0px;
+        background-color:#03fca5;
+        margin-bottom: 3%;    
+    }
+
+    .NavBLi {
+        list-style-type: none;    
+    }
+
+    .NavA {
+        font-size: 14px;
+        text-decoration: none;
+        color: black;
+        padding: 1em; 
+        text-align: center;
+    }
+
+    .flexbox1 img {
+        width: 100%;
+        margin-top: 2%;
+    }
+}
+
+
+/*---------------------------AJ Daly CSS---------------------------*/
+
+.body1 {
+    background: white;
+    font-family:arial;
+    border-style: solid;
+    border-color: yellow;
+    border-width: 1px;
+    border-bottom: auto;
+}
+
+h2{
+    color: black;
+    text-align: center;
+    padding-bottom:10px;
+    width: 100%;
+   
+}
+
+.containerA{
+    text-decoration: none;
+    display: inline;
+    font-size: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    color: black;
+}
+
+.container2{
+    display: flex;
+    border-style: solid;
+    border-color: black;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 10px;
+    padding-top:10px;
+    background: rgb(223, 223, 105);
+}
+
+.containerA:visited{
+    color: orange;
+}
+
+.containerA:hover{
+    color:green;
+    text-decoration: none;
+}
+
+a:active{
+    color: hotpink;
+}
+
+.container1{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color:black;
+    text-align: center;
+    background: rgb(128, 128, 204);
+}
+.container3{
+    width: 100%;
+    display:flex;
+    font-size: 20px;
+    color:black;
+    text-align: center;
+    text-decoration-line: underline;
+    padding-bottom: 0%;
+}
+.container4{
+    width: 100%;
+    margin-left: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    background:rgb(208, 208, 247);
+    font-size: 22px;
+    padding-bottom:10px;
+    padding-top:0%;
+}
+.container5{
+    width: 100%;
+    margin-left: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    background:rgb(209, 209, 243);
+    font-size: 22px;
+    padding-bottom:20px;
+}
+
+.footer1{
+    width: 100%;
+    margin-left: auto;
+    margin-left: auto;
+    border-style: solid;
+    border-color: black;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    word-spacing: 300px;
+    background-color:  rgb(223, 223, 105);
+}
+
+@media screen and (max-width: 480px)
+{
+    .container4{
+        width: 100%;
+        margin-left: auto;
+        margin-left: auto;
+        display: flex;
+        flex-direction: row;
+        background:rgb(208, 208, 247);
+        font-size: 22px;
+        padding-bottom:10px;
+        padding-top:0%;
+    }
+    .container5{
+        width: 100%;
+        margin-left: auto;
+        margin-left: auto;
+        display: flex;
+        flex-direction: row-reverse;
+        background:rgb(209, 209, 243);
+        font-size: 22px;
+        padding-bottom:20px;
+    }
+}
+
+@media screen and (max-width: 320px)
+{
+    .container4{
+        width: 100%;
+        margin-left: auto;
+        margin-left: auto;
+        display: flex;
+        flex-direction: row;
+        background:rgb(208, 208, 247);
+        font-size: 22px;
+        padding-bottom:10px;
+        padding-top:0%;
+    }
+    .container5{
+        width: 50%;
+        margin-left: auto;
+        margin-left: auto;
+        display: flex;
+        flex-direction: row-reverse;
+        background:rgb(209, 209, 243);
+        font-size: 22px;
+        padding-bottom:20px;
+    }
+}
